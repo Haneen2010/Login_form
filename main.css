@@ -4,41 +4,32 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
     }
     
     body{
-    
         position: relative;
         height: 100vh;
     }
     
-    
+    /* Making blue header */
     .header {
       width:100%;
       padding: 30px;
-      background:blue;
-      
+      background:blue; 
     }
     
-    
-    
-    
+    /*  Username and Password inputs */
     input {
-     
-      
       padding: 12px 40px  0;
       margin: 8px 0;
       line-height: 24px;
       display: inline-block;
       border: 1px solid gray;
       box-sizing: border-box;
-      
     }
     
-    
+   /* Centered area with Username, and Password inputs */ 
     .container {
-     
       position: absolute;
       top: 50%;
       left: 50%;
@@ -46,10 +37,10 @@
       width: 300px;
       height: 300px;
       padding: 8px 12px;
-      text-align: right;
-        
+      text-align: right;    
     }
     
+    /* Right aligned login button */
     button {
       background-color: red;
       color: white;
@@ -58,12 +49,10 @@
       border: none;
       cursor: pointer;
       float: right;
-     
     }
     
-    
+    /* Grey Footer (double the size of the header) */
     .footer {
-    
        position: absolute;
        padding: 60px;
        width:100%;
